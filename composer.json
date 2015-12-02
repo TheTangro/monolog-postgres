@@ -1,19 +1,19 @@
 {
-    "name": "wazaari/monolog-mysql",
-    "description": "A handler for Monolog that sends messages to MySQL",
-    "keywords": ["log", "logging", "monolog", "mysql", "database"],
-    "homepage": "https://github.com/waza-ari/monolog-mysql",
+    "name": "stowarzyszenie-wiosna/monolog-pg",
+    "description": "A handler for Monolog that sends messages to Postgres",
+    "keywords": ["log", "logging", "monolog", "postgresql", "database"],
+    "homepage": "https://github.com/stowarzyszenia-wiosna/monolog-pg",
     "license": "MIT",
     "authors": [
         {
-            "name": "Daniel Herrmann",
-            "email": "daniel.herrmann1@gmail.com"
+            "name": "Michał Rączka",
+            "email": "michal.raczka@wiosna.org.pl"
         }
     ],
     "require": {
         "monolog/monolog": ">1.4.0"
     },
     "autoload": {
-        "psr-4": {"MySQLHandler\\": "src/MySQLHandler"}
+        "psr-4": {"PGHandler\\": "src/PGHandler"}
     }
 }
