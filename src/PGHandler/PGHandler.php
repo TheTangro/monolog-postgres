@@ -2,10 +2,6 @@
 
 namespace PGHandler;
 
-<?php
-
-namespace Monolog\Handler;
-
 use Monolog\Logger;
 use Monolog\Handler\AbstractProcessingHandler;
 /**
