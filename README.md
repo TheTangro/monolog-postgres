@@ -20,7 +20,7 @@ $logger->pushHandler($PGHandler);
 
 //Grava um log de exemplo
 $logger->addWarning("Esta é uma mensagem de teste.", array('teste'=>'teste'));
-``´
+```
 
 Original description:
 PostgreSQL Handler for Monolog, which allows to store log messages in a Postgres Table.
