@@ -1,13 +1,13 @@
 {
-    "name": "stowarzyszenie-wiosna/monolog-pg",
+    "name": "reginaldobertoluci/monolog-postgres",
     "description": "A handler for Monolog that sends messages to Postgres",
     "keywords": ["log", "logging", "monolog", "postgresql", "database"],
-    "homepage": "https://github.com/stowarzyszenia-wiosna/monolog-pg",
+    "homepage": "https://github.com/reginaldobertoluci/monolog-postgres",
     "license": "MIT",
     "authors": [
         {
-            "name": "Michał Rączka",
-            "email": "michal.raczka@wiosna.org.pl"
+            "name": "Reginaldo Bertoluci Curtio",
+            "email": "reginaldobertoluci@gmail.com"
         }
     ],
     "require": {
