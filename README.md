@@ -8,7 +8,7 @@ Como utilizar:
 ```
 
 use Monolog\Logger;
-use Monolog\Handler\PGHandler;
+use PGHandler\PGHandler;
 
 $pdo = new PDO('pgsql:dbname=nomedobanco;host=servidor;user=usuario;password=senha');
 $PGHandler = new PGHandler($pdo, 'log_erros');
@@ -20,7 +20,7 @@ $logger->pushHandler($PGHandler);
 
 //Grava um log de exemplo
 $logger->addWarning("Esta é uma mensagem de teste.", array('teste'=>'teste'));
-
+``´
 
 Original description:
 PostgreSQL Handler for Monolog, which allows to store log messages in a Postgres Table.
