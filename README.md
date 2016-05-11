@@ -1,5 +1,5 @@
-monolog-pg
-=============
+monolog-postgres
+================
 
 Handler para o Monolog que permite a gravação dos registros de log em uma tabela PostgresSQL.
 
