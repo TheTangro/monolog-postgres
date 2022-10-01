@@ -1,5 +1,5 @@
 {
-    "name": "reginaldobertoluci/monolog-postgres",
+    "name": "thetangro/monolog-postgres",
     "description": "A handler for Monolog that sends messages to Postgres",
     "keywords": ["log", "logging", "monolog", "postgresql", "database"],
     "homepage": "https://github.com/reginaldobertoluci/monolog-postgres",
