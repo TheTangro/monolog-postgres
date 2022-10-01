@@ -4,6 +4,8 @@ namespace PGHandler;
 
 use Monolog\Logger;
 use Monolog\Handler\AbstractProcessingHandler;
+use Monolog\LogRecord;
+
 /**
  * Classe Handler para o Monolog, utilizada para gravar os registros em uam tabela PostgreSQL
  */
@@ -75,7 +77,7 @@ class PGHandler extends AbstractProcessingHandler {
      * @param  $record[]
      * @return void
      */
-    protected function write(array $record): void
+    protected function write(LogRecord $record): void
     {
         if (!$this->initialized) {
             $this->initialize();
