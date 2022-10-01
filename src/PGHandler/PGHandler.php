@@ -54,6 +54,14 @@ class PGHandler extends AbstractProcessingHandler {
 
         $this->statement->execute();
 
+        $indexCreation = sprintf(
+            'CREATE INDEX IF NOT EXISTS %s_%s_index ON %s (channel, datetime);',
+            uniqid(),
+            $this->table,
+            $this->table
+        );
+        $this->connection->prepare($indexCreation)->execute();
+
         $this->statement = $this->connection->prepare(
                'INSERT INTO '
                .$this->table
